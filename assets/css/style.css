@@ -1,0 +1,104 @@
+h1 {
+			background-color: white;
+			float: top;
+		}
+
+		body {
+			background-color: #d1d6d6;
+		}
+
+		h2 {
+			font-family: georgia;
+			color: #8299bf;
+			padding-left: 20px;
+		}
+
+		.aboutMe {
+			float:left;
+			padding:20px;
+			margin:20px;
+			max-width:600px;
+			background-color: white;
+		}
+
+		.contactMe {
+			float:left;
+			background-color: white;
+			padding:20px;
+			margin:20px;
+		}
+
+		.container {
+			background-repeat: 
+		}
+
+		.butterfly {
+			max-width:165px;
+			max-height:165px;
+			padding-left:20px;
+			padding-right:20px;
+			padding-bottom:10px;
+			padding-top:20px;
+			float:left;
+		}
+
+		.text {
+			padding-left:20px;
+			padding-right: 20px;
+			padding-top: 10px;
+			text-align: justify;
+			font-family: helvetica;
+		}
+
+		.title {
+			font-family: arial;
+			background-color: #8299bf;
+			text-align: center;
+			padding:20px;
+			max-width: 250px;
+			min-height: 40px;
+			color: white;
+			margin:20px;
+			float: top;
+		}
+
+		ul{
+			list-style: none;
+
+		}
+
+		.navBar {
+			background-color:white;
+			max-height: 80px;
+			background-size: cover;
+			position: relative;
+		}
+
+		.navStyle {
+    		display: inline-block;
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+    		overflow: hidden;
+    		background-color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+    		
+		}
+		.navLinks{
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			width: 45%;
+			
+		}
+
+		a{
+			text-decoration: none;
+			font-family: helvetica;
+		}
+
+		.iconStyle {
+			color: black;
+		}
