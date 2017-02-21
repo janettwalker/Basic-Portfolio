@@ -37,15 +37,6 @@ hr {
 	font-family: georgia;
 }
 
-.contactMe {
-	float: left;
-	background-color: white;
-	width: 250px;
-	height: 150px;
-	padding: 40px;
-	margin: 20px;
-}
-
 .container {
 	min-height: 100%;
 	margin-bottom: -50px;
@@ -56,9 +47,15 @@ hr {
 	clear: both;
 	height: 50px;
 	width: auto;
-	background-color: #d1d6d6;
+	font-family: helvetica;
+	font-size: 12px;
+	background-color: #8299bf;
 	text-align: center;
 
+}
+
+.foot {
+	border: 2px solid #ccc;	
 }
 
 .textarea {
@@ -148,18 +145,47 @@ a{
 	font-family: helvetica;
 }
 
+.contactMe {
+	float: left;
+	position: relative;
+	background-color: white;
+	width: 210px;
+	height: 125px;
+	padding: 40px;
+	margin: 20px;
+}
+
 .iconStyle {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
 	width: 50px;
 	height: 50px;
 }
+.iconStyle1 {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.iconStyle2 {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	padding: 0;
+	overflow: hidden;
+}
+
+.iconStyle3 {
+
+	float: left;
+	margin: 10px;
+	padding: 0;
+	overflow: hidden;
+}
 
 .iconLinks {
-	position: relative;
-	float:left;
+
 
 }
