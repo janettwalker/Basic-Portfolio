@@ -189,3 +189,34 @@ a{
 
 
 }
+
+.portfolioImage {
+	width: 275px;
+	height: auto;
+	margin: 10px;
+	z-index: 1;
+}
+
+.portfolioText1 {
+	position: absolute;
+	float: left;
+	width: 275px;
+	height: 100px;
+	background-color: #8299bf; 
+	margin: 10px;
+	left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.portfolioText2 {
+	position: absolute;
+	float: left;
+	width: 275px;
+	height: 100px;
+	background-color: #8299bf; 
+	margin: 10px;
+	left: 0px;
+    top: 0px;
+    z-index: 2;
+}
