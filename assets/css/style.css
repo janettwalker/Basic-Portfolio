@@ -4,6 +4,10 @@ h1 {
 	font-size: 24px;
 }
 
+header {
+	background-color: white;
+}
+
 html, body {
 	background-color: #d1d6d6;
 	height:100%;
@@ -14,7 +18,24 @@ html, body {
 h2 {
 	font-family: georgia;
 	color: #8299bf;
-	font-size: 24px
+	font-size: 24px;
+	margin: 10px;
+}
+
+h3 {
+	font-family: helvetica;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: 1px;
+	z-index: 2;
+	width: 235px;
+	height: 16px;
+	position: absolute;
+	float: left;
+	margin:10px;
+	background-color: #8299bf;
+	padding: 20px;
 }
 
 p {
@@ -30,8 +51,9 @@ hr {
 
 .aboutMe {
 	float: left;
-	padding: 40px;
+	padding: 30px;
 	margin: 20px;
+	margin-left: 100px;
 	max-width: 600px;
 	background-color: white;
 	font-family: georgia;
@@ -49,8 +71,9 @@ hr {
 	width: auto;
 	font-family: helvetica;
 	font-size: 12px;
-	background-color: #8299bf;
+	background-color: #505050;
 	text-align: center;
+	color: white;
 
 }
 
@@ -106,6 +129,7 @@ hr {
 	margin-top: 0;
 	font-family: georgia;
 	font-size: 32px;
+	margin-left: 100px;
 }
 
 ul{
@@ -149,19 +173,17 @@ a{
 	float: left;
 	position: relative;
 	background-color: white;
-	width: 210px;
+	width: 220px;
 	height: 125px;
-	padding: 40px;
+	padding: 30px;
 	margin: 20px;
 }
 
 .iconStyle {
-	width: 50px;
-	height: 50px;
+	width: 53px;
+	height: 53px;
 }
 .iconStyle1 {
-	list-style-type: none;
-	display: inline-block;
 	float: left;
 	margin: 10px;
 	padding: 0;
@@ -169,8 +191,6 @@ a{
 }
 
 .iconStyle2 {
-	list-style-type: none;
-	display: inline-block;
 	float: left;
 	margin: 10px;
 	padding: 0;
@@ -178,45 +198,45 @@ a{
 }
 
 .iconStyle3 {
-
 	float: left;
 	margin: 10px;
 	padding: 0;
 	overflow: hidden;
 }
 
-.iconLinks {
-
-
-}
-
 .portfolioImage {
+	float: left;
 	width: 275px;
 	height: auto;
 	margin: 10px;
-	z-index: 1;
 }
 
-.portfolioText1 {
-	position: absolute;
-	float: left;
-	width: 275px;
-	height: 100px;
-	background-color: #8299bf; 
-	margin: 10px;
-	left: 0px;
-    top: 0px;
-    z-index: 2;
+#portfolioText1 {
+	top: 335px;
+	z-index: 2;
 }
 
-.portfolioText2 {
-	position: absolute;
-	float: left;
-	width: 275px;
-	height: 100px;
-	background-color: #8299bf; 
-	margin: 10px;
-	left: 0px;
-    top: 0px;
-    z-index: 2;
+#portfolioText2 {
+	top: 335px;
+	left: 425px;
+	z-index: 2;
 }
+
+#portfolioText3 {
+	top: 540px;
+	z-index: 2
+}
+
+#portfolioText4 {
+	top: 520px;
+	left: 445px;
+	z-index: 2;
+}
+
+#portfolioText5 {
+	top: 725px;
+	z-index: 2;
+}
+
+
+
